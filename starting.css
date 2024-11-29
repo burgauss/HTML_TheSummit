@@ -141,3 +141,11 @@ body{
     cursor: default;
     text-decoration-line: none;
   }
+
+  .nav-link:not(.logo):hover{
+    color:#736B92;
+    font-weight: 500;
+    background-color: rgba(187,135,188,0.25);
+    cursor: pointer;
+  }
+  
