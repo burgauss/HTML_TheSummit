@@ -145,7 +145,44 @@ body{
   .nav-link:not(.logo):hover{
     color:#736B92;
     font-weight: 500;
-    background-color: rgba(187,135,188,0.25);
+    /* background-color: rgba(187,135,188,0.25); */
     cursor: pointer;
   }
   
+  .btn{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2176FF;
+    color: white;
+  }
+
+  .btn:hover{
+    transition: all 1.5s ease-in;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1),
+     0px -2px 2px rgba(255, 255, 255, 0.25) inset,
+     0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #2176FF;
+    background: linear-gradient(#2176FF, #4f8bed);
+    border-color: #182e9b;
+  }
+
+  .btn:active{
+    margin-top: 5px;
+    color: #6d7073;
+    box-shadow: 0px 0px;
+  }
+
+  .activity:hover{
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1),
+     0px -5px 5px rgba(255, 255, 255, 0.25) inset,
+     0 5px 5px rgba(255, 255, 255, 0.4) inset;
+    background: #2176FF;
+    background: gray;
+    font-size: 40px;
+    border-color: white;
+    cursor: pointer;
+  }
